@@ -1,4 +1,42 @@
 /* Write your global styles here, in PostCSS syntax */
+@import "@fontsource/lato/300.css";
+@import "@fontsource/lato/400.css";
+@import "@fontsource/lato/700.css";
+@import "@fontsource/raleway";
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  html {
+    @apply font-light;
+  }
+
+  h1 {
+    @apply text-4xl;
+    @apply font-bold;
+  }
+
+  h2 {
+    @apply text-3xl;
+    @apply uppercase;
+  }
+
+  h3 {
+    @apply text-2xl;
+    @apply uppercase;
+    @apply font-bold;
+  }
+
+  h4 {
+    font-family: raleway;
+    @apply text-xl;
+    @apply small-caps;
+  }
+}
+
+@layer components {
+  .badge {
+    @apply font-bold;
+  }
+}
