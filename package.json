@@ -41,6 +41,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@fontsource/inter": "^4.5.11",
 		"@fontsource/lato": "^4.5.8",
 		"@fontsource/raleway": "^4.5.9",
 		"tailwindcss-opentype": "^1.0.0"

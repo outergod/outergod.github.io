@@ -1,25 +1,25 @@
 <script>
-    import Head from './head.svelte';
-    import Experience from './experience.svelte';
+  import Head from './head.svelte';
+  import Career from './career.svelte';
+  import Certification from './certification.svelte';
 
-    let name = 'Alexander Dorn';
-    let role = 'Software Artisan';
+  let name = 'Alexander Dorn';
+  let role = 'Software Artisan';
 </script>
 
 <svelte:head>
-    <title>{name} | {role}</title>
+  <title>{name} | {role}</title>
 </svelte:head>
 
-<main class="md:container md:mx-auto">
-    <Head {name} {role} />
-    <div class="divider"/>
-    <Experience/>
+<main class="mx-auto max-w-prose">
+  <Head {name} {role} />
+  <div class="divider "/>
+  <Career/>
+  <div class="divider "/>
+  <Certification/>
 </main>
 
 <style>
-main {
-    max-width: 75ch;
-}
 </style>
 
 <!--

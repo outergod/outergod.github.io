@@ -1,4 +1,7 @@
 /* Write your global styles here, in PostCSS syntax */
+@import "@fontsource/inter/300.css";
+@import "@fontsource/inter/400.css";
+@import "@fontsource/inter/700.css";
 @import "@fontsource/lato/300.css";
 @import "@fontsource/lato/400.css";
 @import "@fontsource/lato/700.css";
@@ -10,6 +13,10 @@
 @layer base {
   html {
     @apply font-light;
+  }
+
+  p {
+    @apply text-justify;
   }
 
   h1 {

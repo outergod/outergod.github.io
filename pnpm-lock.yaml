@@ -1,6 +1,7 @@
 lockfileVersion: 5.3
 
 specifiers:
+  '@fontsource/inter': ^4.5.11
   '@fontsource/lato': ^4.5.8
   '@fontsource/raleway': ^4.5.9
   '@iconify-json/ic': ^1.1.7
@@ -31,6 +32,7 @@ specifiers:
   vite: ^2.9.13
 
 dependencies:
+  '@fontsource/inter': 4.5.11
   '@fontsource/lato': 4.5.8
   '@fontsource/raleway': 4.5.9
   tailwindcss-opentype: 1.0.0_tailwindcss@3.1.4
@@ -39,8 +41,8 @@ devDependencies:
   '@iconify-json/ic': 1.1.7
   '@iconify-json/mdi': 1.1.25
   '@iconify-json/octicon': 1.1.12
-  '@sveltejs/adapter-static': 1.0.0-next.34
-  '@sveltejs/kit': 1.0.0-next.360_svelte@3.48.0+vite@2.9.13
+  '@sveltejs/adapter-static': 1.0.0-next.35
+  '@sveltejs/kit': 1.0.0-next.366_svelte@3.48.0+vite@2.9.13
   '@tailwindcss/typography': 0.5.2_tailwindcss@3.1.4
   '@typescript-eslint/eslint-plugin': 5.30.5_f646e16e2de31e818e163bded4698d6b
   '@typescript-eslint/parser': 5.30.5_eslint@8.19.0+typescript@4.7.4
@@ -91,6 +93,10 @@ packages:
     transitivePeerDependencies:
       - supports-color
     dev: true
+
+  /@fontsource/inter/4.5.11:
+    resolution: {integrity: sha512-toizzQkfXL8YJcG/f8j3EYXYGQe4OxiDEItThSigvHU+cYNDw8HPp3wLYQX745hddsnHqOGCM4exitFSBOU8+w==}
+    dev: false
 
   /@fontsource/lato/4.5.8:
     resolution: {integrity: sha512-IoSvhhzHsSzJu5XEOmDqzqcSmtfcJ788nz2TDgGXac076DApUsYIPHHBd0dh9guMBIVuHZ8Y2dlXNHFl4bCyLA==}
@@ -195,15 +201,15 @@ packages:
       picomatch: 2.3.1
     dev: true
 
-  /@sveltejs/adapter-static/1.0.0-next.34:
-    resolution: {integrity: sha512-XjuMhemme5z0L/B2nTZpA6k+RJjF+b6L96ts6gIQ6ixiCzJQSbBqJhrrBYBCaeLAKvdUMoGEmX8m862JhKjRFg==}
+  /@sveltejs/adapter-static/1.0.0-next.35:
+    resolution: {integrity: sha512-iIg5nCMJF2/s/Y7zmy9pzp+U3YDBL6OQKmwfJm2H3Afde/XlhOuNlSO6K//hxmLmvrd7Oh6Kb0MLhwVKp0cuUA==}
     dependencies:
       tiny-glob: 0.2.9
     dev: true
 
-  /@sveltejs/kit/1.0.0-next.360_svelte@3.48.0+vite@2.9.13:
-    resolution: {integrity: sha512-z1W6oYSmDzYcjlXANkbsb0N0IS/0aDl0huzDGRZWXobis4VmzoqzOyxsczyvxwH6FWxQBXls5wNrtm6drzsr6A==}
-    engines: {node: '>=16.7'}
+  /@sveltejs/kit/1.0.0-next.366_svelte@3.48.0+vite@2.9.13:
+    resolution: {integrity: sha512-TzHIb0D5cTUb/9g+hGuQU0Ja7VneJkQOBeKKHzXjq7RBO6EHOQ64YJXC9LR2jxveWGwZAaqw4PNT5LfySzLs/w==}
+    engines: {node: '>=16.9'}
     hasBin: true
     peerDependencies:
       svelte: ^3.44.0
