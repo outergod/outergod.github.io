@@ -1,5 +1,5 @@
 <script>
-  import avatar from '$lib/assets/avatar.jpg';
+  import avatar from '$lib/assets/avatar.webp';
 </script>
 
 <div class="avatar">
