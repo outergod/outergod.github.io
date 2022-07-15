@@ -1,0 +1,92 @@
+{
+  ".svelte-kit/runtime/client/start.js": {
+    "file": "immutable/start-3728a0a9.js",
+    "src": ".svelte-kit/runtime/client/start.js",
+    "isEntry": true,
+    "imports": [
+      "_index-ec149b1c.js"
+    ],
+    "dynamicImports": [
+      "src/routes/__layout.svelte",
+      ".svelte-kit/runtime/components/error.svelte",
+      "src/routes/index.svelte"
+    ]
+  },
+  "src/routes/__layout.svelte": {
+    "file": "immutable/pages/__layout.svelte-38eeed0e.js",
+    "src": "src/routes/__layout.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-ec149b1c.js"
+    ],
+    "css": [
+      "immutable/assets/pages/__layout.svelte-0125b9f9.css"
+    ],
+    "assets": [
+      "immutable/assets/inter-cyrillic-ext-300-normal-fa806ec0.woff2",
+      "immutable/assets/inter-all-300-normal-f3bb83a1.woff",
+      "immutable/assets/inter-cyrillic-300-normal-7804fb60.woff2",
+      "immutable/assets/inter-greek-ext-300-normal-a0b894cb.woff2",
+      "immutable/assets/inter-greek-300-normal-df2be245.woff2",
+      "immutable/assets/inter-latin-ext-300-normal-ef53aedc.woff2",
+      "immutable/assets/inter-latin-300-normal-8f400eb2.woff2",
+      "immutable/assets/inter-cyrillic-ext-400-normal-70047a3b.woff2",
+      "immutable/assets/inter-all-400-normal-054f12d0.woff",
+      "immutable/assets/inter-cyrillic-400-normal-a4eee61a.woff2",
+      "immutable/assets/inter-greek-ext-400-normal-27027b17.woff2",
+      "immutable/assets/inter-greek-400-normal-381ea30d.woff2",
+      "immutable/assets/inter-latin-ext-400-normal-bb698d85.woff2",
+      "immutable/assets/inter-latin-400-normal-d56fec21.woff2",
+      "immutable/assets/inter-cyrillic-ext-700-normal-0573f98a.woff2",
+      "immutable/assets/inter-all-700-normal-4c5f3ec8.woff",
+      "immutable/assets/inter-cyrillic-700-normal-8215f11d.woff2",
+      "immutable/assets/inter-greek-ext-700-normal-17e82714.woff2",
+      "immutable/assets/inter-greek-700-normal-0e18bf75.woff2",
+      "immutable/assets/inter-latin-ext-700-normal-68853f0f.woff2",
+      "immutable/assets/inter-latin-700-normal-3ced3f55.woff2",
+      "immutable/assets/lato-latin-ext-300-normal-c9455def.woff2",
+      "immutable/assets/lato-all-300-normal-61f13235.woff",
+      "immutable/assets/lato-latin-300-normal-115f6a62.woff2",
+      "immutable/assets/lato-latin-ext-400-normal-1c2fc265.woff2",
+      "immutable/assets/lato-all-400-normal-8844f83a.woff",
+      "immutable/assets/lato-latin-400-normal-918b7dc3.woff2",
+      "immutable/assets/lato-latin-ext-700-normal-4ef7cd3d.woff2",
+      "immutable/assets/lato-all-700-normal-4bfd21d1.woff",
+      "immutable/assets/lato-latin-700-normal-c447dd76.woff2",
+      "immutable/assets/raleway-cyrillic-ext-400-normal-95396d61.woff2",
+      "immutable/assets/raleway-all-400-normal-104c6758.woff",
+      "immutable/assets/raleway-cyrillic-400-normal-063dea47.woff2",
+      "immutable/assets/raleway-vietnamese-400-normal-b6a5c8a5.woff2",
+      "immutable/assets/raleway-latin-ext-400-normal-a90fd73c.woff2",
+      "immutable/assets/raleway-latin-400-normal-8b70efc5.woff2"
+    ]
+  },
+  ".svelte-kit/runtime/components/error.svelte": {
+    "file": "immutable/error.svelte-eed8c5c5.js",
+    "src": ".svelte-kit/runtime/components/error.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-ec149b1c.js"
+    ]
+  },
+  "src/routes/index.svelte": {
+    "file": "immutable/pages/index.svelte-383a9dca.js",
+    "src": "src/routes/index.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-ec149b1c.js"
+    ],
+    "css": [
+      "immutable/assets/pages/index.svelte-5a26bd02.css"
+    ],
+    "assets": [
+      "immutable/assets/avatar-88c9167c.webp"
+    ]
+  },
+  "_index-ec149b1c.js": {
+    "file": "immutable/chunks/index-ec149b1c.js"
+  }
+}
