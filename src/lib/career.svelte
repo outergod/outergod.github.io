@@ -3,7 +3,8 @@
   import MdiLink from '~icons/mdi/link';
 
   let tech = {
-    dixa: ["Google Cloud", "Google Workspaces", "Kubernetes", "Docker", "Drone CI", "Terraform", "Vault", "Python", "Git", "Scrum"],
+    dixaStaff: ["Amazon Web Services", "Google Cloud", "Kubernetes", "Docker", "GitHub Actions", "TypeScript", "Pulumi", "Git"],
+    dixa: ["Google Cloud", "Google Workspaces", "Kubernetes", "Docker", "Drone CI", "Terraform", "Vault", "Git", "Scrum"],
     solvemate: ["Google Cloud", "Google Workspaces", "Kubernetes", "Docker", "Jenkins", "Terraform", "TypeScript", "Python", "Bash", "MongoDB", "F#", "Git", "Scrum"],
     communicatio: ["Docker", "Docker Stack", "Nix", "Bash", "Clojure", "Vue.js", "JavaScript", "Prometheus", "Elasticsearch", "Snyk", "Postfix", "FreeIPA", "Nextcloud", "PostgreSQL", "PHP", "Salt", "Git"],
     aeternity: ["JavaScript", "Erlang", "Git"],
@@ -21,7 +22,26 @@
   <h2>Career</h2>
 
   <ul>
-    <TimelineItem active company="Dixa" role="Tech Lead Automation Platform" date="Now" tech={tech.dixa}>
+    <TimelineItem active company="Dixa" role="Staff Platform Engineer" date="2023" tech={tech.dixaStaff}>
+      <p>
+        Joined forces with the Dixa SRE team to standardize and unify the
+        platforms of all joined companies.
+      </p>
+      <p>
+        Ported Solvemate's Drone CI pipelines to Dixa's standard GitHub Actions
+        solution.
+      </p>
+      <p>
+        Added crucial missing features to Dixa's custom infrastructure-as-code
+        solution based on Pulumi and TypeScript to support GitHub Actions with
+        Kubernetes clusters in different regions and environments.
+      </p>
+      <p>
+        Migrated Solvemate's legacy chatbot stack from GCP to AWS while porting
+        functionality from Helm charts to Pulumi.
+      </p>
+    </TimelineItem>
+    <TimelineItem active company="Dixa" role="Tech Lead Automation Platform" date="2022" tech={tech.dixa}>
       <p>
         Leadership of the newly founded Automation Platform team after
         Solvemate's acquisition through Dixa with an "engineering teams as
