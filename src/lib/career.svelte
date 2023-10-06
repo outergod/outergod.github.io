@@ -41,7 +41,7 @@
         functionality from Helm charts to Pulumi.
       </p>
     </TimelineItem>
-    <TimelineItem active company="Dixa" role="Tech Lead Automation Platform" date="2022" tech={tech.dixa}>
+    <TimelineItem company="Dixa" role="Tech Lead Automation Platform" date="2022" tech={tech.dixa}>
       <p>
         Leadership of the newly founded Automation Platform team after
         Solvemate's acquisition through Dixa with an "engineering teams as
