@@ -18,7 +18,7 @@
   };
 </script>
 
-<article class="p-5 gap-8 flex flex-col">
+<article class="p-5 gap-8 flex flex-col break-after-page">
   <h2>Career</h2>
 
   <ul>
@@ -117,7 +117,7 @@
         Upgraded a legacy SSL certificate provider system written in PHP to support S/MIME.
       </p>
     </TimelineItem>
-    <TimelineItem company="æternity blockchain" role="Freelance Software Engineer" date="2018" tech={tech.aeternity}>
+    <TimelineItem company="æternity blockchain" role="Freelancer" date="2018" tech={tech.aeternity}>
       <p>
         Freelancing JavaScript SDK developer for the æternity blockchain. All
         contributions are Free Software and can be scrutinized publicly.

@@ -22,7 +22,7 @@
 	<ul class="hidden sm:flex flex-row justify-between">
 		<li>
 			<IcBaselineLocationOn />
-			<a href="maps:q=Berlin, Germany">Berlin, Germany</a>
+			<a href="maps:q=Biesenthal, Germany">Biesenthal, Germany</a>
 		</li>
 		<li>
 			<MdiWeb />
