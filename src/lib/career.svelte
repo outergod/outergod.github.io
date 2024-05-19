@@ -3,6 +3,7 @@
   import MdiLink from '~icons/mdi/link';
 
   let tech = {
+    sonova: ["TypeScript", "Terraform", "Google Cloud", "rush", "git", "Scrum"],
     dixaStaff: ["Amazon Web Services", "Google Cloud", "Kubernetes", "Docker", "GitHub Actions", "TypeScript", "Pulumi", "Git"],
     dixa: ["Google Cloud", "Google Workspaces", "Kubernetes", "Docker", "Drone CI", "Terraform", "Vault", "Git", "Scrum"],
     solvemate: ["Google Cloud", "Google Workspaces", "Kubernetes", "Docker", "Jenkins", "Terraform", "TypeScript", "Python", "Bash", "MongoDB", "F#", "Git", "Scrum"],
@@ -22,7 +23,31 @@
   <h2>Career</h2>
 
   <ul>
-    <TimelineItem active company="Dixa" role="Staff Platform Engineer" date="2023" tech={tech.dixaStaff}>
+    <TimelineItem active company="Sonova Marketing" role="Engineering Lead" date="2024" tech={tech.sonova}>
+      <p>
+        Assumed the role of Engineering Lead with Sonova Marketing's Lead
+        Generation Factory in order to shape an engineering team setup that can
+        scale to new markets.
+      </p>
+      <p>
+        Migrated the team's repository and workflows to GitHub Enterprise from
+        GitHub Cloud.
+      </p>
+      <p>
+        Collaborated with Product Management to create a Scrum Team and re-shape
+        development to be product-centric, increasing developer productivity as
+        well as stakeholder and developer satisfaction in the process.
+      </p>
+      <p>
+        Assumed roles of Scrum Master and DevOps in the new team to empower
+        their autonomy.
+      </p>
+      <p>
+        Educated the team on Functional Programming methodologies to reduce
+        boilerplate and increse code quality and test efficiency.
+      </p>
+    </TimelineItem>
+    <TimelineItem company="Dixa" role="Staff Platform Engineer" date="2023" tech={tech.dixaStaff}>
       <p>
         Joined forces with the Dixa SRE team to standardize and unify the
         platforms of all joined companies.
